@@ -1,1 +1,93 @@
 /* Styles go here */
+.container {
+    display: flex;
+  }
+  
+  .left-div {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .right-div {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .middlespace {
+    width: 10%;
+  }
+
+  .scrollable {
+    height: 300px; /* Set a fixed height for the scrollable area */
+    width: auto;
+    overflow:scroll; /* Add a scrollbar to the element */
+  }
+
+  .scrollable_ {
+    height: 200px; /* Set a fixed height for the scrollable area */
+    width: auto;
+    overflow:scroll; /* Add a scrollbar to the element */
+  }
+
+  .dropdown-menu a:hover {
+    background-color: #afafaf;
+  }
+
+  .App {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+  
+  select {
+    font-size: 16px;
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  button {
+    font-size: 16px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+  }
+  
+  li {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .select-product {
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 8px 12px;
+  }
+  
